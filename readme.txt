@@ -109,7 +109,21 @@ and then ternary operator (? and :) and last logical AND operator (only calls if
 need for false).
 
 
-Topic 07. 
+Topic 07. React Lists
+lists are a core part of the many applications and understanding how to efficiently handle them in react is 
+the crucial. we often use list to display collections of data.
+
+const fruits = ['Apple', 'Banana', 'Orange', 'Gauva'];
+    <ul>
+    {
+        fruits.map((fruit, index) => {
+            <li key={index}>{fruit}</li>
+        })
+    }
+    </ul>
+
+we can add also multiple like create student array object and student with name and id. 
+
 
 Topic 08. 
 
