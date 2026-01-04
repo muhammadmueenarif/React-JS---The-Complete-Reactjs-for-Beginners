@@ -99,3 +99,20 @@ Pass component as props in constructor.
 Topic 04. React Props. 
 Props are the argument passed into the react component. props are passed to component via HTML attribute.
 prop stand for the properties. react props are like a function argument in JavaScript and attribute in HTML.
+
+
+Topic 05. React Events
+
+Topic 06. React Conditional
+in react you can conditionally render components. there are several way to do this. So first is If and else, 
+and then ternary operator (? and :) and last logical AND operator (only calls if condition is true and not 
+need for false).
+
+
+Topic 07. 
+
+Topic 08. 
+
+Topic 09. 
+
+Topic 10. 
