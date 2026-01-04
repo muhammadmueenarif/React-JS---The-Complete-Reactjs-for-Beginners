@@ -69,3 +69,11 @@ Topic 01. React render method
 React render for HTML to web page by using function called create route and the method for the render. 
 create function takes on argument an HTML element and in. The purpose of the function is to define 
 the HTML element via a react component should be displayed. 
+The next one is the render method. then called to define the react component that should be rendered.
+
+index.js and app.js and index.html. 
+index.js what you write here in code gets displayed on screen. 
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+    <p>Hello Kashan</p>
+)
