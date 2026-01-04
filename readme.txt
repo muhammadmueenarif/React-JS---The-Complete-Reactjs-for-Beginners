@@ -77,3 +77,25 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <p>Hello Kashan</p>
 )
+
+Topic 02. React JSX
+
+Topic 03. React Class 
+
+class car extends React.component {
+
+    constructor(){
+        super();
+        this.state={color:"yellow"}
+    }
+    render(){
+        <h2>Hi, This is {this.state.color} car class component</h2>
+    }
+}
+
+Pass component as props in constructor. 
+
+
+Topic 04. React Props. 
+Props are the argument passed into the react component. props are passed to component via HTML attribute.
+prop stand for the properties. react props are like a function argument in JavaScript and attribute in HTML.
